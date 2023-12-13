@@ -1,0 +1,49 @@
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Set background color for the entire page */
+body {
+  background-color: #349beb; /* Background color */
+  margin: 0; /* Remove default margins */
+  font-family: Arial, sans-serif; /* Set a default font */
+  color: white; /* Text color */
+}
+
+/* Your existing biography styles */
+/* For example: */
+main {
+  color: white; /* Biography text color */
+}
+
+/* Styling for the contact button */
+.contact-button {
+  /* Your existing button styles */
+  color: white; /* Button text color */
+}
+
+/* Style for the navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
